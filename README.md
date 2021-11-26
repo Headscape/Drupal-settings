@@ -28,16 +28,16 @@ composer update "drupal/core-*" --with-dependencies
 
 ## Step 4
 
-Setup the setting.php, setting.local.php and development.services.yml files to
+Setup the settings.php, settings.local.php and development.services.yml files with the details from
 
-settings.php
-settings-local.php
-development-service.yml
+* <settings.md>
+* <settings-local.php>
+* <development.services.yml>
 
-These will vary slightly depending on who sets them up. Ideally, a standard should be made. My preference is to commit the setting.php file and development.services.yml file to the codebase.
+These will vary slightly depending on who sets them up. Ideally, a standard should be made.
 
-You then locally have the setting.local.php file which can reference the database details and a line to reference the development.service.yml file so that the caches are removed. You can do a similar job on the dev server but reference a different database.
+You then locally have the setting.local.php file which can reference the database details and a line to reference the development.service.yml file so that the caches are removed. 
 
 ## Step 5
 
-Once the files are set up you can then install a database locally for a default site. You must use MAMP or similar to set up the local hosting of your site first.
+Once the files are set up you can then install a database locally for a default site by accessing eg <http://localhost>
