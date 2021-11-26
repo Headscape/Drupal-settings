@@ -30,13 +30,13 @@ composer update "drupal/core-*" --with-dependencies
 
 Setup the settings.php, settings.local.php and development.services.yml files with the details from
 
-* <settings.md>
-* <settings-local.php>
-* <development.services.yml>
+* [settings.md](settings.md)
+* [settings.local.php](settings.local.php)
+* [development.services.yml](development.services.yml)
 
 These will vary slightly depending on who sets them up. Ideally, a standard should be made.
 
-You then locally have the setting.local.php file which can reference the database details and a line to reference the development.service.yml file so that the caches are removed. 
+You then locally have the settings.local.php file which can reference the database details and a line to reference the development.services.yml file so that the caches are removed. 
 
 ## Step 5
 
